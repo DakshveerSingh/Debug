@@ -38,6 +38,7 @@ class Game{
     play(){
         
                 form.hide();
+                player.scoreDisplay();
 
                 Player.getPlayerInfo();
                  image(back_img, 0, 0, 1000, 800);

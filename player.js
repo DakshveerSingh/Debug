@@ -35,5 +35,9 @@ class Player {
         })
     }
 
-    
+    scoreDisplay(){
+        fill("black");
+        textSize(15);
+        text("SCORE: " + this.score, 900,100);
+    }
 }
